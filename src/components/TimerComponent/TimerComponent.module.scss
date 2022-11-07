@@ -1,0 +1,22 @@
+.root {
+    background-color: rgba(0, 128, 128, 0.3);
+    width: 200px;
+    height: calc(64px * 4);
+    margin-right: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_title {
+        text-align: center;
+        color: blue;
+    }
+
+    &_time {
+        margin-top: 10px;
+        color: blue;
+    }
+}

@@ -1,0 +1,35 @@
+.root {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_white {
+        background-color: rgb(96, 210, 255);
+    }
+
+    &_black {
+        background-color: rgba(37, 53, 141, 0.8);
+    }
+
+    &_clicked {
+        background-color: rgb(0, 0, 90);
+    }
+
+    &_logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    &_highlight {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgb(0, 0, 130);
+    }
+
+    &_underAttack {
+        background-color: rgb(140, 0, 0);
+    }
+}

@@ -1,0 +1,33 @@
+.root {
+    &_wrapper {
+        display: flex;
+    }
+
+    &_board {
+        width: calc(64px * 8);
+        height: calc(64px * 8);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &_rotate {
+        transform: rotate(180deg);
+    }
+
+    &_statusWrapper {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &_status {
+        color: red;
+        font-size: 20px;
+    }
+}

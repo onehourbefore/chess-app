@@ -1,0 +1,22 @@
+.root {
+    padding: 20px;
+
+    &_button {
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid blue;
+        color: blue;
+        background: transparent;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+
+        &:last-child {
+            margin-left: 20px;
+        }
+
+        &:hover {
+            background: rgba(0, 0, 255, 0.3);
+        }
+    }
+}

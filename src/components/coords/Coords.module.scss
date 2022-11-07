@@ -1,0 +1,25 @@
+.root {
+    &_coordsY {
+        &_item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 32px;
+            height: 64px;
+            color: blue;
+        }
+    }
+
+    &_coordsX {
+        margin-left: 32px;
+        margin-top: 10px;
+
+        &_item {
+            display: inline-block;
+            text-align: center;
+            width: 64px;
+            height: 32px;
+            color: blue;
+        }
+    }
+}
